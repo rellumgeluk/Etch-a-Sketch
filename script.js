@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('container');
+    
+    if (container) {
+        console.log('Container found:', container);
+    } else {
+        console.error('Container not found');
+    }
 
     function createGrid(size) {
         for(let i=0; i < size * size; i++) {
