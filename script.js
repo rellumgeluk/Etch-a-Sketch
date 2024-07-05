@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function promptNewGrid() {
-        let size = prompt('Enter the number of squares per side for the new grid (1-100):');
+        let size = prompt('Enter the number of squares per side for the new grid (1-100 but 16 is recommended):');
         
         if (size !== null) {
             size = parseInt(size);
